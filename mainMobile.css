@@ -1,0 +1,494 @@
+* {-webkit-text-size-adjust:none;} 
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol, ul, li, table, caption,
+tbody, tfoot, thead, tr, th, td, form, fieldset, object {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+a { 
+	color: #333;
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+body {
+	background-color: #e5e5e5;
+	color: #333;
+	font-family: "Roboto",Arial,sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	height: 100%;
+	line-height: 1.4;
+	max-width: 387px;
+}
+
+#wrapperWithFooter {
+	min-height: 100%;
+	min-width: 340px;
+	padding-bottom: 50px;
+	position: relative;
+	transform: translate3d(0,0,0);
+	width: 100%;
+}
+
+header {
+	background: #fff;
+	border-bottom: 1px solid #aaa;
+	height: 48px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+span.headerleft {
+	display: inline-block;
+	height: 46px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 46px;
+}
+
+span.menuIcon {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAV0lEQVRIx+3VQQ0AIAwEwWo5Jfg3VUwQQsM0WQHz6VV31+QKAAAAAAAAAOAwIMlK0i8FAADwE+DFAwC4CfCFAAAALLEhA7DE3igAwL+ASQEAAAAAAIxuAySZPrhcy+LMAAAAAElFTkSuQmCC);
+	background-size: contain;
+	height: 24px;
+	left: 11px;
+	position: absolute;
+	top: 11px;
+	width: 24px;
+}
+
+a.playLogo {
+	background-image: url(https://ssl.gstatic.com/android/market_images/web/logo_m_play.png);
+	background-size: contain;
+	display: inline-block;
+	height: 40px;
+	margin-top: 5px;
+	width: 160px;
+}
+
+span.headerRight {
+	display: inline-block;
+	height: 46px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 46px;
+}
+
+span.searchIcon {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABSElEQVRYw+3Z0Q2DIBAGYEdwhOafwBEcwREYwRG6gSN0BEfoCIzgCIxAX3hoiCeCgIc5k3syNffBHYLtrLVdy9EJQAACeDAgdAHoASgAKwADwHph3D3VZbiyAgC8iaSpMADm2wEABgA6InE/NIDXLQCXvLmQ/P9sDFUBgeQ3V1KjF4u7RyFeNQGaSEKdaPaZwOsqADe6e7V8ugwOZlAVBbil0uSoYQKxlQaoK6NGlFPS81IBa+qIHSD8xv6UBPhTPmcALCmDEg1w9e9P95gBMPnPLQUYdwB9BsAogIgeaLeEmm/ipyyjNV5kk2wlHruZK7yd/rZ8oIlekjkdKW21VajQoX5OQbD5rEJsUYIINh+23O90LCI74OLbOBrBCpCCYAeIRbAExCDYAs4iWAPOINgDAog2AASijRIiEOlNLH/yCUAAAhBAKH4d6lEJvw9suwAAAABJRU5ErkJggg==);
+	background-size: contain;
+	height: 24px;
+	right: 11px;
+	position: absolute;
+	top: 11px;
+	width: 24px;
+}
+
+section {
+	float: none;
+	width: 100%;
+}
+
+div.sectionHeader {
+	margin-top: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+ul.sectionHeaderUl {
+	display: inline-block;
+	text-align: left;
+	width: 345px;
+}
+
+li.sectionHeaderLi {
+	display: inline-block;
+}
+
+a.playButton {
+	background-color: #fff;
+	border-radius: 2px;
+	border: 1px solid rgba(0,0,0,0.17);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+	box-sizing: border-box;
+	display: inline-block;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	height: 36px;
+	line-height: 34px;
+	margin: 5px;
+	min-width: 158px;
+	padding: 0 20px;
+	position: relative;
+	text-align: center;
+	transition: all .2s;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+div.contentContainer {
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+div.content {
+	display: inline-block;
+	margin: 5px 0 15px 0;
+	position: relative;
+	text-align: left;
+	width: 340px;
+}
+
+h1.contentHeader {
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 28px;
+	margin: 0;
+	min-height: 37px;
+	min-width: 340px;
+	padding: 5px;
+	position: relative;
+	text-align: left;
+	width: 340px;
+}
+
+a.titleLink {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+a.moreButton {
+	background-color: #1aa1e1;
+	border-radius: 2px;
+	border: 1px;
+	bottom: 7px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+	box-sizing: border-box;
+	color: #fff;
+	display: inline-block;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 0;
+	min-width: 40px;
+	padding: 0 13px;
+	position: absolute;
+	right: 5px;
+	text-align: center;
+	text-decoration: none;
+	top: auto;
+	transition: all .2s;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+a.subtitle {
+	color: #555;
+	display: block;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 16px;
+	padding-bottom: 4px;
+}
+
+div.contentList {
+	box-sizing: border-box;
+	height: 340px;
+	margin-left: 0;
+	max-height: 340px;
+	min-width: 345px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.section_BookContentsOutside {
+	display: inline-block;
+	float: none;
+	height: 330px;
+	margin: 5px;
+	position: relative;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+	width: 160px;
+}
+
+div.section_BookContentsInside {
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	height: 100%;
+	position: relative;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+a.a_BookTarget {
+	bottom: 0;
+	color: #333;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+div.cover {
+	background-color: #f5f5f5;
+	border-radius: 2px 2px 0 0;
+	height: 245px;
+	overflow: hidden;
+	position: relative;
+	width: 160px;
+}
+
+div.cover_ImageOutside {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+div.cover_ImageInside {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+img.img_coverImage {
+	max-height: 257px;
+	max-width: 162px;
+	vertical-align: middle;
+}
+
+a.a_BookClickTarget {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+span.span_BookClickTarget {
+	background: rgba(0,0,0,0.4);
+	border-radius: 2px;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transition: all .25s ease;
+	width: 100%;
+}
+
+div.bookDetail {
+	box-sizing: border-box;
+	display: block;
+	overflow: hidden;
+	padding: 7px 10px 0;
+	position: relative;
+}
+
+a.a_title {
+	color: #333;
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	max-height: 36px;
+	min-height: 18px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+span.span_ParagraphEnd {
+	background-image: -webkit-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,1));
+	background: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1));
+	bottom: 0;
+	height: 19px;
+	max-height: 100%;
+	position: absolute;
+	right: 0;
+	width: 45px;
+}
+
+div.writer {
+	display: block;
+	min-height: 22px;
+	position: relative;
+	width: 100%;
+}
+
+a.a_Writer {
+	color: #aaa;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 16px;
+	margin: 1px 0;
+	max-width: 132px;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 140px;
+}
+
+div.bookSubInformation {
+	height: 20px;
+	padding-left: 7px;
+}
+
+span.price {
+	bottom: 7px;
+	color: #1aa1e1;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 17px;
+	position: absolute;
+	right: 10px;
+	text-align: right;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+div.contentBackgroundImage {
+	background-color: #d5d2e7;
+	box-shadow: none;
+	display: block;
+	height: 374px;
+	left: -10%;
+	overflow: hidden;
+	position: absolute;
+	width: 113%;
+}
+
+span.imageContainer {
+	display: inline-block;
+	height: 404px;
+	left: 0;
+	position: absolute;
+	top: -15px;
+}
+
+span.imageContainerInner {
+	display: inline-block;
+	height: 100%;
+}
+
+img.backgroundImage {
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	vertical-align: middle;
+}
+
+div.contentBackgroundImageShadow {
+	box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+	height: 10px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+a.backgroundImageClickTarget {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+div.contentList2 {
+	box-sizing: border-box;
+	height: 340px;
+	margin: 17px 0 21px 0;
+	max-height: 340px;
+	min-width: 345px;
+	overflow: hidden;
+	position: relative;
+}
+
+footer {
+	bottom: 0;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+button.playButton {
+	background-color: #fff;
+	border-radius: 2px;
+	border: 1px solid rgba(0,0,0,0.17);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+	box-sizing: border-box;
+	color: #737373;
+	display: block;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	height: 36px;
+	line-height: 34px;
+	margin: 20px auto;
+	min-width: 40px;
+	outline: none;
+	padding: 0 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: all .2s;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+div.footerContents {
+	color: #555;
+	font-weight: 400;
+	padding: 15px 0;
+	width: 100%;
+}
+
+div.footerLinksContainer {
+	margin-left: 0;
+	padding: 15px;
+}
+
+span.copyright {
+	margin-right: 10px;
+}
+
+a.footerLink {
+	color: #8d8d8d;
+	margin-left: 5px;
+}
+
+div.subFooter {
+	margin: 0 7px;
+	margin-bottom: 5px;
+}
