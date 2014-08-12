@@ -33,7 +33,7 @@ body {
 	font-weight: 300;
 	height: 100%;
 	line-height: 1.4;
-	max-width: 387px;
+	width: 100%;
 }
 
 #wrapperWithFooter {
@@ -84,7 +84,7 @@ a.playLogo {
 
 span.headerRight {
 	display: inline-block;
-	height: 46px;
+	height: 46	px;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -111,11 +111,11 @@ div.sectionHeader {
 	text-align: center;
 	width: 100%;
 }
-
+s		
 ul.sectionHeaderUl {
 	display: inline-block;
 	text-align: left;
-	width: 345px;
+	width: 100%;
 }
 
 li.sectionHeaderLi {
