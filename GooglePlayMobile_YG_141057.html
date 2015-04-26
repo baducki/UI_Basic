@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-    <meta name="viewPort" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scale=no;" />
+    <meta name="viewPort" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 		<title>Google Play Mobile</title>
 		<link rel="stylesheet" type="text/css" href="mainMobile.css" />
   </head>
@@ -370,5 +370,36 @@
         </div>
       </section>
     </div>
+  <script type="template" class="addBooksTemplates">  
+    <div class='section_BookContentsOutside'>
+      <div class='section_BookContentsInside'>
+        <a class='a_BookTarget' href='<%=PageLink%>'></a>
+        <div class='cover'>
+          <div class='cover_ImageOutside'>
+            <div class='cover_ImageInside'>
+              <img class='img_coverImage' alt='<%=Name%>' src='<%=ImageLink%>'>
+            </div>
+          </div>
+          <a class='a_BookClickTarget' href='<%=PageLink%>'>
+            <span class='span_BookClickTarget'></span>
+          </a>
+        </div>
+        <div class='bookDetail'>
+          <a class='a_BookClickTarget' href='<%=PageLink%>'></a>
+          <h2>
+            <a class='a_title' href='<%=PageLink%>' title='<%=Name%>'>'<%=Name%>'
+              <span class='span_ParagraphEnd'></span>
+            </a>
+          </h2>
+          <div class='writer'>
+            <a class='a_Writer' href='<%=WriterLink%>' title='<%=Writer%>'><%=Writer%>
+            </a>
+          </div>
+        </div>
+        <span class='price'>₩<%=Price%></span>
+      </div>
+    </div>
+  </script>
+  <script type="text/javascript" src="googleplayMobile.js"></script>
   </body>
 </html>
